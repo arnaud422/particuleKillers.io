@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    overflow: hidden;
+}
+body{
+    background-color: #000;
+}
+#score-container{
+    position: fixed;
+    color: #FFF;
+    padding: 10px;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+}
+.start-container{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+.start-box{
+    background-color: rgba(255, 255, 255, 0.788);
+    text-align: center;
+    width: 30vw;
+    border: 1px solid green;
+    padding: 15px;
+}
+.start-box div button{
+    background-color: #eb4d4b;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #cccccc;
+    font-size: 1.3rem;
+    margin-top: 15px;
+    outline: none;
+    padding: 5px;
+    border: none;
+    width: 60%;
+}
